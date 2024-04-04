@@ -224,7 +224,6 @@ ol {
 }
 
 .mob-menu-list {
-  margin-bottom: 50px;
 }
 
 .mob-item:not(:last-child) {
@@ -671,7 +670,7 @@ ol {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .social-subtitle {
@@ -748,13 +747,10 @@ ol {
 
 .logo-text-wrap {
   /* margin-right: 120px; */
+  margin-bottom: 72px;
 }
 
 .social-subtitle {
-}
-
-.foter-tablet {
-  /* display: flex; */
 }
 
 .subscribe-list-link {
@@ -1226,6 +1222,10 @@ ol {
     width: 584px;
   }
 
+  .logo-text-wrap {
+    margin-bottom: 0;
+  }
+
   .logo-wrap {
     text-align: left;
   }
@@ -1249,6 +1249,7 @@ ol {
 
   .media-list-link {
     align-items: start;
+    margin-bottom: 0;
   }
 
   .social-subtitle {
